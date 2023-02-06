@@ -1,0 +1,9 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(167, 159, 161) !important;
+}
+
+#navbarNavDropdown{
+    display: block; 
+    justify-content: flex-end;
+}
