@@ -12,7 +12,7 @@
 }
 
 img {
-  display: flex;
+  display: block;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -22,7 +22,11 @@ img {
 .logos {
   display: flex;
   justify-content: center;
-  /* flex-direction: flex-start; */
   margin: 40px;
   padding: 10px;
+}
+.end-footer{
+    display: flex;
+    justify-content: center;
+    color: black;
 }

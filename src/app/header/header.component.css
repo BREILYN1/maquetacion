@@ -7,3 +7,10 @@
     display: block; 
     justify-content: flex-end;
 }
+.div-podcast{
+    display: flex;
+    justify-content: center;
+}
+.section-podcast{
+    background-color: #cfb3b3be;
+}    
