@@ -1,0 +1,15 @@
+{
+    "cursos": [
+        {
+            "img": "url de imagen",
+            "title": "titulo",
+            "descripcion": "carreta"     
+        },
+        {
+            "img": "url de imagen",
+            "title": "titulo",
+            "descripcion": "carreta"     
+        }
+    ]
+
+}
