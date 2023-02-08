@@ -10,11 +10,11 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class MainComponent {
+  cursos:Array<any> = []
   constructor(private http: HttpClient) { }
   url = "http://localhost:3000/cursos";
   async getConditionalDataUsingAsync() {
-    let data = await this.http.get<any>(this.url).toPromise();
-    console.log(data)
+    this.cursos = await this.http.get<any>(this.url).toPromise();
   }
   ngOnInit() {
     this.getConditionalDataUsingAsync()
