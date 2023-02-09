@@ -13,8 +13,8 @@ export class MainComponent {
   constructor(private http: HttpClient) { }
   url = "http://localhost:3000/cursos";
   async getConditionalDataUsingAsync() {
-    let data = await this.http.get<any>(this.url).toPromise();
-    console.log(data)
+    let cursos = await this.http.get<any>(this.url).toPromise();
+    console.log(cursos)
   }
   ngOnInit() {
     this.getConditionalDataUsingAsync()
