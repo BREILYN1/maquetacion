@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
 #nose{
-    display: block ;
-    justify-content: center;
-    margin: 20px ;
+    text-align: center;
+    margin: 0px auto ;
     padding: 20px ;
     border-radius: 6px solid;
     background-position: center;
     color: blueviolet;
+}
+
+#course-title{
+    text-align: center;
+}
+
+.cards{
+    padding-left: 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
