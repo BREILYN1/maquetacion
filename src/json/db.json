@@ -3,29 +3,27 @@
         {
             "img": "https://www.topdoctors.com.co/files/Image/large/0c01781be10c9e2c819496ccd1710cfe.jpg",
             "title": "Inteligencia Emocional",
-            "descripcion": "Aprende a gestionar tus emociones y las de otras personas de tu entorno a través de la reflexión, la observación y el análisis de las situaciones. Optimiza y fortalece tus comunicaciones y tus relaciones profesionales. En este curso aprenderás a tomar decisiones que te ayudarán a lograr tus objetivos personales y profesionales"     
+            "descripcion": "Aprende a gestionar tus emociones y las de otras personas de tu entorno a través de la reflexión, la observación y el análisis de las situaciones. Optimiza y fortalece tus comunicaciones y tus relaciones profesionales. En este curso aprenderás a tomar decisiones que te ayudarán a lograr tus objetivos personales y profesionales"
         },
         {
             "img": "url de imagen",
             "title": "Nutrición y Estilo de Vida Saludable",
-            "descripcion": "carreta"   
+            "descripcion": "carreta"
         },
         {
             "img": "url de imagen",
             "title": "Alimentación Consciente",
-            "descripcion": "Aprende a gestionar tus emociones y las de otras personas de tu entorno a través de la reflexión, la observación y el análisis de las situaciones. Optimiza y fortalece tus comunicaciones y tus relaciones profesionales. En este curso aprenderás a tomar decisiones que te ayudarán a lograr tus objetivos personales y profesionales."     
+            "descripcion": "Aprende a gestionar tus emociones y las de otras personas de tu entorno a través de la reflexión, la observación y el análisis de las situaciones. Optimiza y fortalece tus comunicaciones y tus relaciones profesionales. En este curso aprenderás a tomar decisiones que te ayudarán a lograr tus objetivos personales y profesionales."
         },
         {
             "img": "url de imagen",
             "title": "titulo4",
-            "descripcion": "carreta"     
+            "descripcion": "carreta"
         },
         {
             "img": "url de imagen",
             "title": "titulo4",
-            "descripcion": "carreta"     
+            "descripcion": "carreta"
         }
-        
     ]
-
 }
