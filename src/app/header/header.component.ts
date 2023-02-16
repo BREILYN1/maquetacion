@@ -12,16 +12,33 @@ export class HeaderComponent {
   dia = this.fecha.getDay()
   frase = ""
 
-  frases:Array<any> = []
+
+  frases: Array<any> = []
   constructor(private http: HttpClient) { }
   url = "http://localhost:3004/frases";
   async getConditionalDataUsingAsync() {
     this.frases = await this.http.get<any>(this.url).toPromise();
-    this.frase = JSON.stringify(this.frases[this.dia -1].frase);
+    this.frase = JSON.stringify(this.frases[this.dia - 1].frase);
   }
   ngOnInit() {
     this.getConditionalDataUsingAsync()
   }
+
+ 
+
+  // function modifyBtn() {
+  //   const botonF1 = document.querySelector('.botonF1');
+  //   const btn = document.querySelector('.btn');
+  //   const contenedor = document.querySelector('.contenedor');
+  // }
+
+//   botonF1?.addEventListener('mouseenter', () => {
+//   btn?.classList.add('animacionVer');
+// });
+
+// contenedor?.addEventListener('mouseleave', () => {
+//   btn?.classList.remove('animacionVer');
+// });
 
   
 

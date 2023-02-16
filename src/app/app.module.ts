@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingUpComponent } from './sing-up/sing-up.component';
+import { TestOrientacionComponent } from './test-orientacion/test-orientacion.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SingUpComponent } from './sing-up/sing-up.component';
     FooterComponent,
     LandingPageComponent,
     SingUpComponent,
+    TestOrientacionComponent,
   ],
   imports: [
     BrowserModule,

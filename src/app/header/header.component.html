@@ -1,4 +1,11 @@
 <link rel="stylesheet" href="./header.component.css" />
+<nav class="frases">
+  <div class="frase-dia">
+    <p class="frase">
+      {{ frase }}
+    </p>
+  </div>
+</nav>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img
     class="logo-resilience"
@@ -44,6 +51,7 @@
 </nav>
 
 <!-- carousel -->
+
 <div
   id="carouselExampleControls"
   class="carousel slide"
@@ -79,18 +87,19 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<!-- frase y podcast -->
+<!-- podcast -->
 <section class="section-podcast">
-    <!-- <div class="card" style="width: 18rem"> -->
-      <div class="div-podcast">
-        <p class="frase">
-          {{ frase }}
-        </p>
-      <!-- </div> -->
-    </div>
-
-    <!-- podcast  -->
-
+  <div class="contenedor">
+    <button class="botonF1">
+      <span>+</span>
+    </button>
+    <button class="btn botonF2">
+      <span>+</span>
+    </button>
+    <button class="btn botonF3">
+      <span>+</span>
+    </button>
+  </div>
     <!-- <audio src=".mp3" preload="none" controls></audio>
     <audio src=".ogg" autoplay loop></audio> -->
 </section>
