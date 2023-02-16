@@ -1,13 +1,12 @@
 <link rel="stylesheet" href="./header.component.css" />
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img
+    class="logo-resilience"
     src="../../assets/img/logo.jpg"
     alt="logoEafit"
-    height="100px"
-    width="150px"
   />
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">RESILIENCE BY UNIVERSIDAD EAFIT</a>
+    <!-- <a class="navbar-brand" href="#">RESILIENCE BY UNIVERSIDAD EAFIT</a> -->
     <button
       class="navbar-toggler"
       type="button"
@@ -25,19 +24,19 @@
           <a class="nav-link active" aria-current="page" href="#">Bienestar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Formacion Y Desarrollo</a>
+          <a class="nav-link" href="#main">Formacion Y Desarrollo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre Nosotros</a>
+          <a class="nav-link" href="#footer">Sobre Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#footer">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/login">iniciar seccion</a>
+          <a class="nav-link" routerLink="/sing up">Registrarse</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/sing up">registrarse</a>
+          <a class="nav-link" id="login" routerLink="/login">Iniciar sesion</a>
         </li>
       </ul>
     </div>
@@ -52,28 +51,13 @@
 >
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img
-        src="../../assets/img/carousel1.jpg"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div>
-        <!-- <p>hdsahfjk</p> -->
-      </div>
+      <img src="../../assets/img/imagen1.jpg" class="d-block w-100" alt="" />
     </div>
     <div class="carousel-item">
-      <img
-        src="../../assets/img/logoEafit.jpg"
-        class="d-block w-100"
-        alt="..."
-      />
+      <img src="../../assets/img/nosotros.jpg" class="d-block w-100" alt="" />
     </div>
     <div class="carousel-item">
-      <img
-        src="../../assets/img/logoEafit.jpg"
-        class="d-block w-100"
-        alt="..."
-      />
+      <img src="../../assets/img/system.jpg" class="d-block w-100" alt="..." />
     </div>
   </div>
   <button
@@ -95,23 +79,18 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-<br />
-
 <!-- frase y podcast -->
 <section class="section-podcast">
-  <div class="div-podcast">
-    <img
-      class="img-dia"
-      src="../../assets/img/frase-dia.jpg"
-      alt="frase del dia"
-      height="200px"
-      width="200px"
-    />
+    <!-- <div class="card" style="width: 18rem"> -->
+      <div class="div-podcast">
+        <p class="frase">
+          {{ frase }}
+        </p>
+      <!-- </div> -->
+    </div>
 
     <!-- podcast  -->
 
-    <audio src=".mp3" preload="none" controls></audio>
-    <audio src=".ogg" autoplay loop></audio>
-  </div>
+    <!-- <audio src=".mp3" preload="none" controls></audio>
+    <audio src=".ogg" autoplay loop></audio> -->
 </section>

@@ -11,7 +11,7 @@
 <h4 id="course-title">CURSOS</h4>
 
 <div class="cards">
-  <div class="card" style="width: 18rem;" *ngFor="let curso of cursos">
+  <div class="card" *ngFor="let curso of cursos">
     <img src="{{curso.img}}" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">{{curso.title}}</h5>
@@ -23,38 +23,3 @@
 
 
 
-<!-- <div class="container">   
-    <div class="card-group mt-3">
-
-      <div class="card text-center border-info">
-        <div class="card-body">
-          <h4 class="card-title">Titulo de la tarjeta 1</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
-                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
-                                nec tortor sit amet, maximus mattis dui. </p>
-          <a href="#" class="btn btn-primary">Entrar</a>
-        </div>
-      </div>          
-
-      <div class="card text-center border-info">
-        <div class="card-body">
-          <h4 class="card-title">Titulo de la tarjeta 2</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
-                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
-                                nec tortor sit amet, maximus mattis dui. </p>
-          <a href="#" class="btn btn-primary">Entrar</a>
-        </div>
-      </div>          
-  
-      <div class="card text-center border-info">
-        <div class="card-body">
-          <h4 class="card-title">Titulo de la tarjeta 3</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
-                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
-                                nec tortor sit amet, maximus mattis dui. </p>
-          <a href="#" class="btn btn-primary">Entrar</a>
-        </div>
-      </div>          
-
-    </div>
-  </div>   -->

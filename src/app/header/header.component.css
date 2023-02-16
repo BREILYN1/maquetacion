@@ -1,16 +1,59 @@
+/* :root{
+    --color_primario: #00B4D8;
+} */
 .bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgb(167, 159, 161) !important;
+  --bs-bg-opacity: 1;
+  background-color: #caf0f8 !important;
 }
 
-#navbarNavDropdown{
-    display: block; 
-    justify-content: flex-end;
+#navbarNavDropdown {
+  display: block;
+  justify-content: flex-end;
 }
-.div-podcast{
-    display: flex;
-    justify-content: center;
+
+.carousel {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin: 1.5px;
+  padding: auto;
 }
-.section-podcast{
-    background-color: #cfb3b3be;
-}    
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: black !important;
+  font-family: 'Raleway', sans-serif;
+  
+}
+a:hover {
+  border-radius: 30px;
+  background-color: rgb(184, 150, 108);
+}
+
+#login {
+  border-radius: 50px;
+  background-color: #0077b6;
+}
+.frase {
+  color: #0077b6;
+  font-size: large;
+  -webkit-box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 8px 15px 10px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 10px;
+}
+.div-podcast {
+  display: flex;
+  justify-content: center;
+
+}
+.section-podcast {
+  display: flex;
+  background-color: #caf0f8;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  
+}

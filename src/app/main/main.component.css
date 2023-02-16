@@ -25,3 +25,10 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.card{
+    width: 250px;
+}
+.card-img-top{
+    height: 243px;
+    width: 245px;
+}
