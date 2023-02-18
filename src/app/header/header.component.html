@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="./header.component.css" />
+<!-- <link rel="stylesheet" href="./header.component.css" />
 <nav class="frases">
   <div class="frase-dia">
     <p class="frase">
       {{ frase }}
     </p>
   </div>
-</nav>
+</nav> -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img
@@ -29,13 +29,13 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
+          <a class="nav-link" href="#footer">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Bienestar</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#main">Formacion Y Desarrollo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#footer">Sobre Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#footer">Contacto</a>
@@ -59,7 +59,7 @@
   data-bs-ride="carousel"
 >
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <img src="../../assets/img/imagen1.jpg" class="d-block w-100" alt="" />
     </div>
     <div class="carousel-item">
@@ -67,6 +67,11 @@
     </div>
     <div class="carousel-item">
       <img src="../../assets/img/system.jpg" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item active day-img">
+      <h1>{{frase}}</h1>
+      <br>
+      <h3>{{autor.slice(1,-1)}}</h3>
     </div>
   </div>
   <button
@@ -96,13 +101,13 @@
       <span>+</span>
     </button>
     <button class="btn" id="botonF2">
-      <span routerLink="/test">Test</span>
+      <span routerLink="/test" class="bi bi-list-check"></span>
     </button>
     <button class="btn" id="botonF3">
-      <a href="https://open.spotify.com/show/4iIu7ScTmDR7AYGvMUcKCb?si=d136e8b3cf814a7e" style="text-decoration: none;"><span >Podcast</span></a>
+      <a href="https://open.spotify.com/show/4iIu7ScTmDR7AYGvMUcKCb?si=d136e8b3cf814a7e" style=""><span class="bi bi-spotify icon-green"></span></a>
     </button>
     <button class="btn" id="botonF4">
-      <span>Whatsapp</span>
+      <span class="bi bi-whatsapp"></span>
     </button>
   </div>
 

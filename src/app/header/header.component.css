@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Mynerve&display=swap');
+
+
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: #caf0f8 !important;
+  background-color: rgb(246, 248, 248) !important;
 }
 
 #navbarNavDropdown {
@@ -23,9 +26,10 @@
 .nav-link {
   font-family: "Raleway", sans-serif;
   background: #fff; /* color de fondo */
-  color: #4741d7; /* color de fuente */
-  border: 2px solid #bdbcd1; /* tamaño y color de borde */
-  padding: 16px 20px;
+  color: black; /* color de fuente */
+  font-weight: 800;
+  border: 2px solid black; /* tamaño y color de borde */
+  padding: 5px 20px;
   border-radius: 10px; /* redondear bordes */
   position: relative;
   z-index: 1;
@@ -213,4 +217,30 @@ span {
 .animacionVer {
   transform: scale(1);
   
+}
+
+.icon-green{
+  color: #1DB954
+}
+.day-img {
+  background-image: url("../../assets/img/atardecer.jpg");
+  color: whitesmoke;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  height: 100%;
+}
+
+.day-img h1{
+  display: flex;
+  font-family: 'Mynerve', cursive;
+  justify-content: center;
+  margin: 10%;
+}
+.day-img h3{
+  display: flex;
+  font-family: 'Dosis', sans-serif;  
+  justify-content: center;
+
 }

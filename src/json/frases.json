@@ -1,25 +1,39 @@
 {
     "frases":[
         {
-            "frase": "frase lunes"
+            
+            "frase": "frase lunes",
+            "autor":""
         },
         {
-            "frase": "frase martes"
+            
+            "frase": "frase martes",
+            "autor":""
         },
         {
-            "frase": "las mujeres ya no lloran las mujeres facturan"
+            
+            "frase": "",
+            "autor":""
         },
         {
-            "frase": "frase jueves"
+            
+            "frase": "frase jueves",
+            "autor":""
         },
         {
-            "frase": "frase viernes"
+            
+            "frase": "frase viernes",
+            "autor":""
         },
         {
-            "frase": "frase sabado"
+            
+            "frase": "Las oportunidades no ocurren, se crean",
+            "autor": "Chris Grosser"
         },
         {
-            "frase": "frase domingo"
+            
+            "frase": "frase domingo",
+            "autor":""
         }
     ]
 

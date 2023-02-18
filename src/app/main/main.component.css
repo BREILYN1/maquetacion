@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
 
+
 *{
     font-family: 'Rajdhani', sans-serif;
 }
 
-#nose{
+#about{
     text-align: center;
+    font-size:25px;
     margin: 0px auto ;
     padding: 20px ;
-    border-radius: 6px solid;
-    background-position: center;
+    font-style: oblique;
     color: blueviolet;
 }
 
