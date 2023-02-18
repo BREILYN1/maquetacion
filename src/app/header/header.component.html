@@ -6,6 +6,7 @@
     </p>
   </div>
 </nav>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img
     class="logo-resilience"
@@ -72,7 +73,7 @@
     class="carousel-control-prev"
     type="button"
     data-bs-target="#carouselExampleControls"
-    data-bs-slide="prev"
+    data-bs-slide="prev" 
   >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -89,17 +90,22 @@
 </div>
 <!-- podcast -->
 <section class="section-podcast">
-  <div class="contenedor">
-    <button class="botonF1">
+
+  <div class="contenedor" (mouseleave)="handleMouseOver()">
+    <button id="botonF1" (mouseenter)="handleMouseEnter()">
       <span>+</span>
     </button>
-    <button class="btn botonF2">
-      <span>+</span>
+    <button class="btn" id="botonF2">
+      <span routerLink="/test">Test</span>
     </button>
-    <button class="btn botonF3">
-      <span>+</span>
+    <button class="btn" id="botonF3">
+      <a href="https://open.spotify.com/show/4iIu7ScTmDR7AYGvMUcKCb?si=d136e8b3cf814a7e" style="text-decoration: none;"><span >Podcast</span></a>
+    </button>
+    <button class="btn" id="botonF4">
+      <span>Whatsapp</span>
     </button>
   </div>
-    <!-- <audio src=".mp3" preload="none" controls></audio>
+
+  <!-- <audio src=".mp3" preload="none" controls></audio>
     <audio src=".ogg" autoplay loop></audio> -->
 </section>

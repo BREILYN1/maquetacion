@@ -11,6 +11,12 @@ export class HeaderComponent {
   fecha = new Date()
   dia = this.fecha.getDay()
   frase = ""
+  botonF1: any = ""
+  botonF2: any = ""
+  botonF3: any = ""
+  botonF4: any = ""
+  btn: any = ""
+  container: any = "";
 
 
   frases: Array<any> = []
@@ -20,26 +26,41 @@ export class HeaderComponent {
     this.frases = await this.http.get<any>(this.url).toPromise();
     this.frase = JSON.stringify(this.frases[this.dia - 1].frase);
   }
+
+  handleMouseEnter(): void {
+    this.botonF1 = document.getElementById('botonF1');
+    this.botonF2 = document.getElementById('botonF2');
+    this.botonF3 = document.getElementById('botonF3');
+    this.botonF4 = document.getElementById('botonF4');
+    console.log(this.botonF1);
+    this.botonF1?.classList.add('animacionVer');
+    this.botonF2?.classList.add('animacionVer');
+    this.botonF3?.classList.add('animacionVer');
+    this.botonF4?.classList.add('animacionVer');  
+  }
+  handleMouseOver(): void {
+    this.botonF1 = document.getElementById('botonF1');
+    this.botonF2 = document.getElementById('botonF2');
+    this.botonF3 = document.getElementById('botonF3');
+    this.botonF4 = document.getElementById('botonF4');
+    console.log(this.container);
+    this.botonF1?.classList.remove('animacionVer');
+    this.botonF2?.classList.remove('animacionVer');
+    this.botonF3?.classList.remove('animacionVer');
+    this.botonF4?.classList.remove('animacionVer');  
+    
+  }
+
   ngOnInit() {
     this.getConditionalDataUsingAsync()
+
   }
 
  
+}
 
-  // function modifyBtn() {
-  //   const botonF1 = document.querySelector('.botonF1');
-  //   const btn = document.querySelector('.btn');
-  //   const contenedor = document.querySelector('.contenedor');
-  // }
 
-//   botonF1?.addEventListener('mouseenter', () => {
-//   btn?.classList.add('animacionVer');
-// });
-
-// contenedor?.addEventListener('mouseleave', () => {
-//   btn?.classList.remove('animacionVer');
-// });
 
   
 
-}
+

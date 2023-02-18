@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingUpComponent } from './sing-up/sing-up.component';
 import { TestOrientacionComponent } from './test-orientacion/test-orientacion.component';
+import { PodcastComponent } from './podcast/podcast.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TestOrientacionComponent } from './test-orientacion/test-orientacion.co
     LandingPageComponent,
     SingUpComponent,
     TestOrientacionComponent,
+    PodcastComponent,
   ],
   imports: [
     BrowserModule,

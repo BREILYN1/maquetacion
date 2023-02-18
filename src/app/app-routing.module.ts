@@ -8,6 +8,8 @@ import { leadingComment } from '@angular/compiler';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SingUpComponent } from './sing-up/sing-up.component';
+import { TestOrientacionComponent } from './test-orientacion/test-orientacion.component';
+import { PodcastComponent } from './podcast/podcast.component';
 
 const routes: Routes = [
   {
@@ -25,6 +27,14 @@ const routes: Routes = [
   {
     path: 'sing up',
     component: SingUpComponent,
+  },
+  {
+    path: 'test',
+    component: TestOrientacionComponent,
+  },
+  {
+    path: 'podcast',
+    component: PodcastComponent,
   },
   {
     path: '',
