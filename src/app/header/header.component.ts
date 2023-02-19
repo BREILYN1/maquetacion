@@ -25,8 +25,9 @@ export class HeaderComponent {
   url = "http://localhost:3004/frases";
   async getConditionalDataUsingAsync() {
     this.frases = await this.http.get<any>(this.url).toPromise();
-    this.frase = JSON.stringify(this.frases[this.dia - 1].frase);
-    this.autor = JSON.stringify(this.frases[this.dia - 1].autor.toString());
+    if(this.dia === 0) this.dia = 7;
+    this.frase = JSON.stringify(this.frases[this.dia-1].frase);
+    this.autor = JSON.stringify(this.frases[this.dia-1].autor);
     
     
   }
