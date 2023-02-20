@@ -1,44 +1,58 @@
 {
     "questions":[
-        {
-            "question":"",
+        {   "type": "Nutrición y Estilo de Vida Saludable",
+            "question":"¿Cuántas horas dedicas a hacer deporte a la semana? ",
             "answers":[
-                "answer1",
-                "answer2",
-                "answer3"
+                "Menos de 1 hora ",   
+                "Entre 1 hora y 3 horas", 
+                "Más de 3 horas" 
             ]
         },
         {
-            "question":"",
+            "type":"Depresion y ansiedad",
+            "question":"¿Cuántas horas duermes al día? ",
             "answers":[
-                "answer1",
-                "answer2",
-                "answer3"
+                "Entre 4 y 5 horas",
+                "Entre 6 y 7 horas",
+                "Entre 8 y 9 horas"
             ]
         },
         {
-            "question":"",
+            "type":"Nutrición y Estilo de Vida Saludable",
+            "question":"¿Te haces al menos un chequeo médico (de control) por año? ",
             "answers":[
-                "answer1",
-                "answer2",
-                "answer3"
+                "No suelo realizarme chequeos. O solo lo hago cuando tengo algún problema de salud",
+                "Me hago chequeos, pero pasa más de un año entre uno y otro ",
+                "Sí. Al menos una vez al año "
             ]
         },
         {
-            "question":"",
+            "type":"Alimentación Consciente",
+            "question":"¿Consumes verduras variadas todos los días?",
             "answers":[
-                "answer1",
-                "answer2",
-                "answer3"
+                "Sí, siempre o casi siempre",
+                "Consumo sólo algunas veces por semana, y no de forma regular",
+                "Normalmente no consumo verduras (o consumo muy poco)"
             ]
         },
         {
-            "question":"",
+            "type":"Depresion y ansiedad",
+            "question":"¿Durante las últimas 2 semanas ha tenido poco interés en hacer las cosas?",
             "answers":[
-                "answer1",
-                "answer2",
-                "answer3"
+                "Ningún día",
+                "Varios días",
+                "Casi todos los días"
             ]
         },
+        {
+            "type":"Inteligencia Emocional",
+            "question":"Ante situaciones nuevas e inesperadas...",
+            "answers":[
+                "Analizo la situación e intento adaptarme poco a poco a la novedad.",
+                "Me suelo bloquear y no sé qué hacer",
+                "Tengo cierto miedo a lo desconocido, pero intento enfrentarme como puedo."
+            ]
+        }
     ]
+    
 }
